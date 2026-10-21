@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0d14">
+<meta name="description" content="NEO — صفحة خدمات وأعمال مستقلة. استعرض الخدمات وتواصل لطلب مشروعك.">
+<title>NEO — خدمات مستقلة</title>
+<style>
+:root{--bg:#090c13;--panel:#111725;--panel2:#151e30;--line:rgba(255,255,255,.1);--text:#f4f7ff;--muted:#aab4c8;--accent:#8ca8ff;--accent2:#b59bff;--green:#79e1bd;--radius:22px;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% -15%,#24345c 0,transparent 42%),radial-gradient(ellipse at 10% 30%,#1b1640 0,transparent 35%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.7}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.wrap{width:min(1100px,calc(100% - 36px));margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(9,12,19,.8);backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}.navinner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:23px;letter-spacing:1px}.logo{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#0a0d14;font-size:21px;font-weight:1000;box-shadow:0 8px 30px #8ca8ff2e}.navlinks{display:flex;align-items:center;gap:22px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--text)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border:1px solid var(--line);border-radius:13px;padding:12px 17px;background:var(--panel2);color:var(--text);font-weight:700;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#8ca8ff88}.btn.primary{background:linear-gradient(120deg,var(--accent),#b7a7ff);border-color:transparent;color:#0b1020}.hero{padding:86px 0 65px;display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}.tag{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #79e1bd42;background:#79e1bd0d;border-radius:999px;color:var(--green);font-size:13px}.dot{width:7px;height:7px;background:var(--green);border-radius:50%;box-shadow:0 0 12px var(--green)}h1{font-size:clamp(42px,6vw,72px);line-height:1.13;letter-spacing:-1.6px;margin:20px 0}h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);font-size:18px;max-width:640px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.hero-card{min-height:330px;border:1px solid var(--line);border-radius:30px;background:linear-gradient(145deg,#1b2740dd,#101522dd);padding:25px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between}.hero-card:before,.hero-card:after{content:"";position:absolute;border-radius:50%;filter:blur(1px);pointer-events:none}.hero-card:before{width:230px;height:230px;left:-65px;top:-75px;background:radial-gradient(circle,#8ca8ff63,transparent 70%)}.hero-card:after{width:220px;height:220px;right:-90px;bottom:-90px;background:radial-gradient(circle,#b59bff55,transparent 70%)}.orbit{position:relative;z-index:1;height:180px;display:grid;place-items:center}.orbitring{width:165px;height:165px;border:1px solid #9caeff55;border-radius:50%;display:grid;place-items:center;transform:rotate(-18deg)}.orbitring:before{content:"";position:absolute;width:125px;height:125px;border:1px dashed #b59bff75;border-radius:50%}.orbitcore{width:88px;height:88px;border-radius:27px;display:grid;place-items:center;background:linear-gradient(145deg,#9bb5ff,#bca9ff);color:#101426;font-size:33px;font-weight:1000;box-shadow:0 15px 60px #9eabff55}.float{position:absolute;z-index:2;padding:8px 12px;border:1px solid var(--line);background:#121a2bea;border-radius:12px;color:#e5eaff;font-size:13px}.float.one{top:8px;right:0}.float.two{bottom:8px;left:0}.cardfoot{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px}.smallmuted{color:var(--muted);font-size:13px}.section{padding:62px 0}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:25px}.eyebrow{color:var(--accent);font-weight:800;font-size:13px;letter-spacing:1px}h2{font-size:clamp(27px,4vw,39px);line-height:1.25;margin:7px 0 0} .sectiondesc{color:var(--muted);max-width:440px;margin:0}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(150deg,#151d2d,#0f1420);padding:23px;min-height:190px;transition:.2s}.tile:hover{transform:translateY(-4px);border-color:#8ca8ff66}.ico{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:#8ca8ff17;color:var(--accent);font-size:23px;margin-bottom:18px}.tile h3{margin:0 0 8px;font-size:19px}.tile p{margin:0;color:var(--muted);font-size:14px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}.chip{padding:7px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:12px}.workcard{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:#111725}.workvisual{height:165px;display:grid;place-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#202e50,#17152e)}.workvisual.v2{background:linear-gradient(135deg,#183e43,#111725)}.workvisual.v3{background:linear-gradient(135deg,#4a2b50,#171725)}.mock{width:72%;height:70%;border:1px solid #ffffff45;border-radius:14px;background:#0d1320c9;box-shadow:0 20px 55px #0006;padding:14px;display:flex;flex-direction:column;gap:8px;transform:rotate(-3deg)}.mockline{height:8px;border-radius:9px;background:#a6b8ff70;width:70%}.mockline.short{width:35%}.mockblocks{display:flex;gap:7px;flex:1}.mockblocks span{flex:1;border-radius:7px;background:linear-gradient(145deg,#8ca8ff70,#b59bff22)}.v2 .mockblocks span{background:linear-gradient(145deg,#79e1bd70,#79e1bd15)}.v3 .mockblocks span{background:linear-gradient(145deg,#ff9fda70,#b59bff20)}.workbody{padding:19px}.workbody h3{margin:0 0 5px}.workbody p{margin:0;color:var(--muted);font-size:13px}.workbody .chip{display:inline-flex;margin-top:13px}.note{color:var(--muted);font-size:12px;margin-top:15px}.aboutbox{display:grid;grid-template-columns:1fr 1fr;gap:25px;border:1px solid var(--line);background:linear-gradient(130deg,#151d2dcc,#101522cc);border-radius:28px;padding:clamp(22px,4vw,38px)}.aboutbox p{color:var(--muted)}.checks{display:grid;gap:13px;align-content:center}.check{display:flex;gap:11px;align-items:flex-start;color:#dce3f5}.checkicon{color:var(--green);font-weight:bold}.contact{border:1px solid #8ca8ff3b;border-radius:28px;padding:clamp(24px,5vw,48px);background:radial-gradient(ellipse at 10% 0,#8ca8ff1c,transparent 55%),#111725;display:flex;align-items:center;justify-content:space-between;gap:25px}.contact p{color:var(--muted);max-width:560px}.contactactions{display:flex;gap:10px;flex-wrap:wrap}.footer{padding:28px 0 35px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.footerinner{display:flex;align-items:center;justify-content:space-between;gap:16px}.footerlinks{display:flex;gap:16px;flex-wrap:wrap}.edithelp{margin-top:18px;padding:14px 16px;border:1px dashed #8ca8ff66;border-radius:14px;color:var(--muted);font-size:13px}.edithelp strong{color:var(--text)}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:58px}.hero-card{min-height:280px}.grid3{grid-template-columns:1fr 1fr}.sectionhead{display:block}.sectiondesc{margin-top:12px}.aboutbox{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}.navlinks{gap:12px}.navlinks a:nth-child(2){display:none}}
+@media(max-width:520px){.wrap{width:min(100% - 26px,1100px)}.navinner{height:66px}.navlinks{font-size:12px;gap:10px}.navlinks a:nth-child(3){display:none}.brand{font-size:20px}.grid3{grid-template-columns:1fr}.tile{min-height:auto}.hero{gap:26px}.lead{font-size:16px}.footerinner{align-items:flex-start;flex-direction:column}}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="wrap navinner">
+    <a class="brand" href="#home" aria-label="NEO الرئيسية"><span class="logo">N</span><span>NEO<span style="color:var(--accent)">.</span></span></a>
+    <div class="navlinks"><a href="#services">الخدمات</a><a href="#work">الأعمال</a><a href="#about">من أنا</a><a href="#contact">تواصل</a></div>
+    <a class="btn primary" href="#contact">اطلب خدمة ↗</a>
+  </div>
+</nav>
+<main>
+  <section class="wrap hero" id="home">
+    <div>
+      <div class="tag"><span class="dot"></span> مساحة عمل NEO المستقلة</div>
+      <h1>نحوّل فكرتك إلى<br><span>شيء مميز.</span></h1>
+      <p class="lead">أهلًا بك في NEO. هذه صفحة تعريفية لعرض الخدمات والأعمال والمشاريع. عدّل المحتوى وأضف بياناتك الحقيقية قبل مشاركة الموقع مع العملاء.</p>
+      <div class="actions"><a class="btn primary" href="#services">اكتشف الخدمات <span>←</span></a><a class="btn" href="#work">شاهد نماذج الأعمال</a></div>
+      <div class="chips"><span class="chip">تصميم عصري</span><span class="chip">تواصل واضح</span><span class="chip">مناسب للجوال</span></div>
+    </div>
+    <div class="hero-card" aria-label="تصميم NEO">
+      <div class="orbit"><span class="float one">فكرة جديدة ✦</span><div class="orbitring"><div class="orbitcore">N</div></div><span class="float two">NEO / STUDIO</span></div>
+      <div class="cardfoot"><div><strong>ابدأ مشروعك القادم</strong><div class="smallmuted">خطوة أولى نحو فكرتك</div></div><span style="font-size:25px;color:var(--accent)">↙</span></div>
+    </div>
+  </section>
+  <section class="wrap section" id="services">
+    <div class="sectionhead"><div><div class="eyebrow">01 / الخدمات</div><h2>كيف أقدر أساعدك؟</h2></div><p class="sectiondesc">غيّر أسماء الخدمات ووصفها لتطابق ما تقدمه فعلًا. لا تعرض خدمة لا تستطيع تنفيذها.</p></div>
+    <div class="grid3">
+      <article class="tile"><div class="ico">✦</div><h3>تصميم واجهات ومواقع</h3><p>تصميم صفحات واضحة وأنيقة تعرض فكرتك أو مشروعك بطريقة مرتبة.</p></article>
+      <article class="tile"><div class="ico">▧</div><h3>تصاميم رقمية</h3><p>صور وأغلفة وبطاقات رقمية مناسبة للمحتوى والمنصات الاجتماعية.</p></article>
+      <article class="tile"><div class="ico">⌘</div><h3>تنسيق المحتوى</h3><p>ترتيب النصوص والروابط والأقسام لتجعل تجربة الزائر سهلة وواضحة.</p></article>
+    </div>
+  </section>
+  <section class="wrap section" id="work">
+    <div class="sectionhead"><div><div class="eyebrow">02 / نماذج الأعمال</div><h2>أفكار من معرض NEO</h2></div><p class="sectiondesc">هذه بطاقات توضيحية للتصميم وليست مشاريع حقيقية أو أعمالًا منفّذة. استبدلها بأعمالك قبل النشر.</p></div>
+    <div class="grid3">
+      <article class="workcard"><div class="workvisual"><div class="mock"><div class="mockline short"></div><div class="mockline"></div><div class="mockblocks"><span></span><span></span><span></span></div></div></div><div class="workbody"><h3>واجهة موقع</h3><p>نموذج تصوري لصفحة رئيسية عصرية.</p><span class="chip">تصميم ويب</span></div></article>
+      <article class="workcard"><div class="workvisual v2"><div class="mock"><div class="mockline short"></div><div class="mockline"></div><div class="mockblocks"><span></span><span></span><span></span></div></div></div><div class="workbody"><h3>هوية رقمية</h3><p>نموذج تصوري للألوان وترتيب العناصر.</p><span class="chip">تصميم بصري</span></div></article>
+      <article class="workcard"><div class="workvisual v3"><div class="mock"><div class="mockline short"></div><div class="mockline"></div><div class="mockblocks"><span></span><span></span><span></span></div></div></div><div class="workbody"><h3>بطاقات محتوى</h3><p>نموذج تصوري لمنشورات مرتبة.</p><span class="chip">محتوى رقمي</span></div></article>
+    </div>
+  </section>
+  <section class="wrap section" id="about">
+    <div class="aboutbox"><div><div class="eyebrow">03 / عن NEO</div><h2>بسيط، واضح، ومركّز على فكرتك.</h2><p>اكتب هنا نبذة قصيرة عن نفسك: من أنت، وما الخدمات التي تقدمها، ومن هم العملاء الذين تريد مساعدتهم. اجعلها صادقة ومباشرة.</p><div class="edithelp"><strong>تذكير:</strong> عدّل هذا النص وأضف اسمك ومعلوماتك قبل نشر الموقع للعملاء.</div></div><div class="checks"><div class="check"><span class="checkicon">✓</span><span>عرض واضح للخدمات وطريقة طلبها.</span></div><div class="check"><span class="checkicon">✓</span><span>نماذج أعمال تساعد الزائر على فهم أسلوبك.</span></div><div class="check"><span class="checkicon">✓</span><span>تصميم يتكيف مع شاشة الكمبيوتر والجوال.</span></div><div class="check"><span class="checkicon">✓</span><span>روابط تواصل قابلة للتخصيص.</span></div></div></div>
+  </section>
+  <section class="wrap section" id="contact">
+    <div class="contact"><div><div class="eyebrow">04 / تواصل</div><h2>عندك فكرة؟ خلّنا نبدأ.</h2><p>أضف بريدك أو رابط حسابك المهني في الزر التالي حتى يستطيع العملاء التواصل معك. الزر الحالي يفتح البريد الإلكتروني لإنشاء رسالة جديدة، ويمكنك تغيير العنوان داخل الملف.</p></div><div class="contactactions"><a class="btn primary" id="emailLink" href="mailto:your-email@example.com?subject=طلب%20خدمة%20من%20NEO">راسلني عبر البريد ↗</a><button class="btn" type="button" onclick="copySiteLink()">نسخ رابط الصفحة</button></div></div>
+    <p class="note">قبل النشر: استبدل your-email@example.com ببريدك، وعدّل الخدمات والأعمال والنبذة بما يناسبك.</p>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footerinner"><div>© <span id="year"></span> NEO. جميع الحقوق محفوظة.</div><div class="footerlinks"><a href="#home">الرئيسية ↑</a><a href="#services">الخدمات</a><a href="#contact">التواصل</a></div></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+function copySiteLink(){
+  const text = window.location.href;
+  if(navigator.clipboard && window.isSecureContext){navigator.clipboard.writeText(text).then(()=>alert('تم نسخ رابط الصفحة')).catch(()=>prompt('انسخ الرابط:',text));}
+  else {prompt('انسخ رابط الصفحة:',text);}
+}
+</script>
+</body>
+</html>
